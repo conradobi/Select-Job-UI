@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 90vw;
+  max-width: 1249px;
+  margin: auto;
+  overflow: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 34px 0px;
+  .icons {
+    display: flex;
+    gap: 50px;
+  }
+}
+.main {
+  background-image: url(./img/bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  .title {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    color: #333333;
+  }
+  .desc {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #333333;
+  }
+
+  .service {
+    display: flex;
+    justify-content: space-between;
+    gap: 33px;
+    margin-top: 36px;
+    .col {
+      width: 25%;
+
+      background: #ffffff;
+      border: 1px solid #e5e5e5;
+      box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
+      border-radius: 6px;
+    }
+    .col:hover {
+      border: 1px solid #6747e9;
+      box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
+    }
+    .uiuxcol {
+      border: 1px solid #6747e9;
+      box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
+    }
+    .mod {
+      background-image: url(./img/Moderator.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin-bottom: 34px;
+    }
+    .acc {
+      background-image: url(./img/Accountant.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin-bottom: 34px;
+    }
+    .uiux {
+      background-image: url(./img/UX\ Designer.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin-bottom: 34px;
+      position: relative;
+      img {
+        position: absolute;
+        right: 10px;
+        top: 10px;
+      }
+    }
+    .dev {
+      background-image: url(./img/Developer.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin-bottom: 34px;
+    }
+    .ft-img {
+      height: 210px;
+    }
+    .service-cont {
+      padding: 20px 15px;
+
+      .servicetitle {
+        text-align: center;
+        margin-bottom: 15px;
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 23px;
+        text-align: center;
+
+        color: #000000;
+      }
+      .servicedesc {
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 19px;
+
+        color: #666666;
+      }
+    }
+  }
+  .cta {
+    display: flex;
+    padding: 63px 0 86px 0;
+    float: right;
+
+    button {
+      padding: 18px 37px;
+      background: #6747e9;
+      border-style: none;
+      border-radius: 6px;
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 300;
+      font-size: 18px;
+      line-height: 21px;
+      text-align: center;
+      letter-spacing: 0.1em;
+      color: #ffffff;
+    }
+  }
+}
